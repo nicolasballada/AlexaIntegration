@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+	 box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #093162;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #616f8c;
+    color: black;
+}
+
+
+/* Logo*/
+.logo{
+	-ms-align-items: center;
+	align-items: center;
+	width: 15%;
+	height: 1%;
+}
+
+/* Style the content */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	text-align: center;
+    float: left;
+    width: 47%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+	font-family: 'Hammersmith One', sans-serif;
+	text-decoration: underline;
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: #093162;
+    padding: 5px;
+	color: white;
+	center: auto;
+}
+
+.columnF {
+	text-align: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+	height: auto;
+	background-color: #093162
+}
+
+a{
+	color: royalblue;
+}
+
+a.visted{
+	color: gray
+}
+
+.video{
+	
+	width: 1200px;
+	height 300px;
+	background-color: blue;
+	
+}
+
+
+/*This will be used for the Meet the Team section*/
+.MTTLEFT{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bolder;
+	font-size: xx-large;
+	line-height: normal;
+	text-transform: capitalize;
+	padding-left: 30%;
+	resize: 40%;
+}
+
+.MTTRIGHT{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bolder;
+	font-size: xx-large;
+	line-height: normal;
+	text-transform: capitalize;
+	padding-right: 15%;
+	padding-left: 60
+&
+&;
+	padding-left: 0%;
+}
+
+.columnC {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-left: 26px;
+	padding-bottom: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .columnC {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+    resize: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 120%;
+}
+
+.containerC {
+  padding: 0 16px;
+	height: 50%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #093162;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #616f8c;
+}
+
+.imtMTT{
+	height: 40%;
+	resize: 80%;
+}
+/*-------------------------------------------------------------------------------*/
+
+
+.capabilities{
+	
+	padding-top: 15px;
+}
+
+.capText{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bolder;
+	font-size: xx-large;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+p.fab.fa-linkedin-in{
+	height: 10px;
+}
