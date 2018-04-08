@@ -57,7 +57,6 @@ body {
     float: left;
     width: 47%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -206,5 +205,9 @@ a.visted{
 }
 
 p.fab.fa-linkedin-in{
+	height: 10px;
+}
+
+p.fab.fa-twitter{
 	height: 10px;
 }
