@@ -1,0 +1,39 @@
+
+chrome youtube.com
+chrome
+chrome youtube.com
+chrome
+chrome myCourses.rit.edu
+chrome canvas.psu.edu
+chrome
+chrome youtube.com
+chrome canvas.psu.edu
+chrome
+chrome
+chrome canvas.psu.edu
+chrome myCourses.rit.edu
+chrome myCourses.rit.edu
+chrome hackpsu.org
+chrome
+chrome
+iexplore
+chrome www.linkedin.com
+chrome "www.lionpath.com"
+chrome "www.lionpath.psu.edu"
+chrome "pwc.com"
+chrome www.c9.io
+chrome hackpsu.org
+chrome "https://ift.tt/2swEWXy"
+chrome "https://ift.tt/2swEWXy"
+chrome "https://ift.tt/PlSwoO"
+chrome "https://ift.tt/2oN1Ud5"
+Rundll32.exe User32.dll,LockWorkStation
+start chrome www.facebook.com
+start chrome www.facebook.com
+Rundll32.exe User32.dll,LockWorkStation
+start chrome www.facebook.com
+Rundll32.exe User32.dll,LockWorkStation
+Rundll32.exe User32.dll,LockWorkStation
+start chrome "https://ift.tt/1zvDpJP"
+start cmd.exe tree
+start cmd.exe tree

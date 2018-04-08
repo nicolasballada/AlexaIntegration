@@ -60,7 +60,7 @@ public class AlexaIntegration{
                System.out.println(lastLine);
             }
             
-            String command = "cmd /c start " + lastLine;
+            String command = "cmd /c " + lastLine;
             Process child = Runtime.getRuntime().exec(command);
             OutputStream out = child.getOutputStream();      
                out.write("cd C:/ /r/n".getBytes());
@@ -71,7 +71,7 @@ public class AlexaIntegration{
                      
          try{
             Runtime.getRuntime().exec("taskkill /f /im cmd.exe");  
-         }catch(Exception e){}
+         }catch(Exception e){}        
       }
    }
 }
