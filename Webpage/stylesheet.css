@@ -57,6 +57,17 @@ body {
     float: left;
     width: 47%;
     padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+.columnInside{
+		text-align: center;
+    float: left;
+    width: 47%;
+    padding: 10px;
+    height: auto;
+	float: right;
+	
 }
 
 /* Clear floats after the columns */
@@ -208,6 +219,50 @@ p.fab.fa-linkedin-in{
 	height: 10px;
 }
 
+.appcol{
+	    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    	-moz-column-count: 3; /* Firefox */
+    	column-count: 3;
+}
+
+.headingCol{
+	font-weight: bolder;
+	font-size: large;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+p.fab.fa-linkedin-in{
+	height: 20px;
+}
+
 p.fab.fa-twitter{
-	height: 10px;
+	height: 20px;
+}
+
+.social{
+	height: 20px;
 }
